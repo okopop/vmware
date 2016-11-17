@@ -1,5 +1,5 @@
 # Configure already deployed vcsa + x3 vesxi with powercli
-# Mattias Ukusic, 2016
+# Mattias Ukusic 2016
 
 $vc="X"
 $vc_user="administrator@vsphere.local"
