@@ -1,4 +1,4 @@
-# Configure already deployed vcsa + x3 vesxi
+# Configure already deployed vcsa + x3 vesxi with powercli
 # Mattias Ukusic, 2016
 
 $vc="X"
