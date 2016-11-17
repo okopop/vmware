@@ -8,7 +8,7 @@ $ESXI_HOST="X"
 $ESXI_USERNAME="root"
 $ESXI_PASSWORD="X"
 
-$VM_NAME = "X"
+$VM_NAME = "vesxi"
 $DATASTORE="X"
 $VM_NETWORK="VM Network"
 $IP_RANGE="192.168.1"
@@ -57,6 +57,6 @@ $gi_syslog = ""
 --powerOn `
 $ESXI_OVA `
 vi://${ESXI_USERNAME}:${ESXI_PASSWORD}@${ESXI_HOST}
-
+$VM_NAME = "vesxi"
 $VM_NAME_PREFIX++
 }
