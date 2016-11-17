@@ -52,7 +52,7 @@ Catch
 Get-VDPortgroup $portgroup | Get-VDUplinkTeamingPolicy | Set-VDUplinkTeamingPolicy -LoadBalancingPolicy LoadBalanceLoadBased
 
 Write-Host "---------------------------------------------------------"
-Write-Host "OBS: Dont forget to check vDS Healtch Check in Web Client"
+Write-Host "OBS: Dont forget to check vDS Healtch Check in vSphere Client"
 Write-Host "---------------------------------------------------------"
 
 Try
