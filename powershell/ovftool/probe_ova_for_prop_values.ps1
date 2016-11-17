@@ -1,5 +1,5 @@
 # Probe ova file for prop values
-# Mattias Ukusic, 2016
+# Mattias Ukusic 2016
 
 $OVTOOL_PATH="C:\ovftool.exe"
 
