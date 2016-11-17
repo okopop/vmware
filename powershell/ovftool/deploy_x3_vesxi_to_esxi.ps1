@@ -1,4 +1,3 @@
-
 # Deploy x3 esxi ova to esxi with ovftool
 # By Mattias Ukusic 2016, creds to William Lam, virtuallyghetto.com
 
