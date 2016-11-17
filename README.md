@@ -1,3 +1,3 @@
 # vmware
 
-Random scripts etc for vmware related stuff
+Random scripts for vmware related stuff
