@@ -1,7 +1,7 @@
 # Probe ova file for prop values
 # Mattias Ukusic, 2016
 
-$OVTOOL_PATH="C:\X\ovftool.exe"
+$OVTOOL_PATH="C:\ovftool.exe"
 
 $ova = Read-Host -Prompt 'Enter ova file name path'
 
