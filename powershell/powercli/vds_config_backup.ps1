@@ -1,12 +1,12 @@
 # Backup vds config
 # Mattias Ukusic 2016
 
-#### DONT EDIT BELOW
-
 # variables
 $vc = "<enter vc>"
 $date = Get-Date -Format "yyy-MM-dd"
 $backup_dest = "<enter backup dest>\$date"
+
+#### DONT EDIT BELOW
 
 # Connect to vcenter server
 Connect-VIServer $vc | Out-Null
