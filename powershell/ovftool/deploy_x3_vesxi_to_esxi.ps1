@@ -2,7 +2,7 @@
 # By Mattias Ukusic 2016, creds to William Lam, virtuallyghetto.com
 
 $OVFTOOL_PATH="C:\Program Files\VMware\VMware OVF Tool\ovftool.exe"
-$ESXI_OVA="E:\Nested_ESXi6.x_Appliance_Template_v5.ova"
+$ESXI_OVA="E:\Nested_ESXi6.5_Appliance_Template_v1.ova"
 
 $ESXI_HOST="X"
 $ESXI_USERNAME="root"
