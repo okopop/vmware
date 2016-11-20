@@ -1,6 +1,10 @@
 # Configure already deployed vcsa + x3 vesxi with powercli
 # Mattias Ukusic 2016
 
+# be able to run /wo starting powercli
+if ( !(Get-Module -Name VMware.VimAutomation.Core -ErrorAction SilentlyContinue) ) {
+. “C:\Program Files (x86)\VMware\Infrastructure\vSphere PowerCLI\Scripts\Initialize-PowerCLIEnvironment.ps1”
+
 $vc="X"
 $vc_user="administrator@vsphere.local"
 $vc_user_pass="X"
