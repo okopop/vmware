@@ -12,6 +12,9 @@ $datacenter="X"
 
 #### DO NOT EDIT BELOW ####
 
+# ignore cert warning
+Set-PowerCLIConfiguration -InvalidCertificateAction ignore -confirm:$false
+
 # connect to vc
 Try
 {
