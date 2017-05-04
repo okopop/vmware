@@ -1,14 +1,14 @@
-# Configure already deployed vcsa + x3 vesxi
+# Configure already deployed vcsa + x3 vesxi (no vsan)
 # Mattias Ukusic, 2016
 
 $vc="192.168.1.200"
-$vc_user="x"
+$vc_user="administrator@vsphere.local"
 $vc_user_pass="x"
 $esxhosts=@("192.168.1.201", "192.168.1.202", "192.168.1.203")
 $esxuser="root"
 $esxpass="x"
-$cluster="LAB"
-$datacenter="Datacenter01"
+$cluster="x"
+$datacenter="x"
 
 #### DO NOT EDIT BELOW ####
 
