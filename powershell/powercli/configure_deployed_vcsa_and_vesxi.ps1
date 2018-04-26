@@ -23,7 +23,7 @@ Set-PowerCLIConfiguration -InvalidCertificateAction ignore -confirm:$false
 # connect to vc
 Try
 {
-    Connect-VIServer $vc -User $vc_user -Password $vc_user_pass -ea Stop | Out-Null
+    Connect-VIServer $vc -User $vc_user -Password $vc_user_pass -ea Stop -Force | Out-Null
 }
 Catch
 {
