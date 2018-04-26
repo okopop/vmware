@@ -2,13 +2,13 @@
 # By Mattias Ukusic 2016, creds to William Lam, virtuallyghetto.com
 
 $OVFTOOL_PATH="C:\Program Files\VMware\VMware OVF Tool\ovftool.exe"
-$ESXI_OVA="E:\vmware-vcsa-65.ova"
+$ESXI_OVA="E:\vmware-vcsa-67.ova"
 
 $ESXI_HOST="X"
 $ESXI_USERNAME="X"
 $ESXI_PASSWORD="X"
 
-$VM_NAME="vcsa65"
+$VM_NAME="vcsa67"
 $DATASTORE="X"
 $VM_NETWORK="VM Network"
 
