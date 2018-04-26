@@ -2,7 +2,7 @@
 # By Mattias Ukusic 2016, creds to William Lam, virtuallyghetto.com
 
 $OVFTOOL_PATH="C:\Program Files\VMware\VMware OVF Tool\ovftool.exe"
-$ESXI_OVA="E:\Nested_ESXi6.5_Appliance_Template_v1.ova"
+$ESXI_OVA="E:\Nested_ESXi6.7_Appliance_Template_v1.ova"
 
 $ESXI_HOST="X"
 $ESXI_USERNAME="root"
@@ -37,7 +37,7 @@ $gi_syslog = ""
 --acceptAllEulas `
 --noSSLVerify `
 --allowExtraConfig `
---net:'VM Network='$VM_NETWORK `
+--net:'VM-Network-DVPG='$VM_NETWORK `
 --diskMode=thin `
 --overwrite `
 --skipManifestCheck `
